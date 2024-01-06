@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background: #16191e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.la-img {
+    background: url('https://m.media-amazon.com/images/M/MV5BNjQwZDIyNjAtZGQxMC00OTUwLWFiOWYtNzg2NDc5Mjc1MDQ5XkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .tp-img {
+    background: url('https://www.assignmentx.com/wp-content/uploads/2022/07/THE-PRINCESS-movie-poster.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .hp-img {
+    background: url('https://www.bluedogposters.com.au/cdn/shop/products/PP34925_1400x.jpg?v=1674016516') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .cn-img {
+    background: url('https://asianwiki.com/images/f/f2/Decibel_Korean_Movie-p1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .ism-img {
+    background: url('https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2023/07/Snapinsta.app_355431527_648558270467187_5594636517855612856_n_1080.jpg?size=*:900') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .jc-img {
+    background: url('https://lumiere-a.akamaihd.net/v1/images/p_junglecruise_21740_v2_bb7f0ae4.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .be-img {
+    background: url('https://anitrendz.net/news/wp-content/uploads/2023/03/bloodyescapejigokunotousougeki_visual-1-scaled.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .f-img {
+    background: url('https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/12/furiosa-a-mad-max-saga-new-film-poster.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .ck-img {
+    background: url('https://upload.wikimedia.org/wikipedia/en/b/be/Godzilla_x_kong_the_new_empire_poster.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .ss-img {
+    background: url('https://cdn.moviefone.com/admin-uploads/posters/societyofthesnow-movie-poster_1703695638.jpg?d=360x540&q=60') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .mg-img {
+    background: url('https://m.media-amazon.com/images/M/MV5BM2JiYTQzM2MtOWU4NS00MGMwLTg2NTYtMTNhMzk5Y2JlY2Q4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .sj-img {
+    background: url('https://www.bollymoviereviewz.com/wp-content/uploads/2021/09/330px-Jawan_film_poster.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .bb-img {
+    background: url('https://stat4.bollywoodhungama.in/wp-content/uploads/2023/07/Double-ISmart-306x393.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .fg-img {
+    background: url('https://www.gqmiddleeast.com/cloud/2023/11/09/u4LhmUOx-Screenshot-2023-11-09-at-12.25.09-PM-644x1024.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .h-img {
+    background: url('https://imagevars.gulfnews.com/2023/07/01/hanuman-poster_18911bf9a9d_original-ratio.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .m-img {
+    background: url('https://nortenews.org/wp-content/uploads/2023/05/m3gan_2_0____m3gan___megan_sequel__by_diamonddead_art_dfn06pg-pre-315x475.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .e-img {
+    background: url('https://i.pinimg.com/736x/8b/8c/5d/8b8c5d47a722695125498530758bc059.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .bj-img {
+    background: url('https://socialjunkie.com/wp-content/uploads/2023/06/MV5BN2U0ZjI1YTUtNTA2OS00YWYyLTkxOGEtMDU4NDA4MDk3OTc3XkEyXkFqcGdeQXVyMTI4ODY5NTM3._V1_-819x1024.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .sm-img {
+    background: url('https://geekculture.co/wp-content/uploads/2022/01/SPIDER-MAN-NO-WAY-HOME-SPOILER-FEATURE-IMAGE.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .la-img {
+    background: url('https://m.media-amazon.com/images/M/MV5BNjQwZDIyNjAtZGQxMC00OTUwLWFiOWYtNzg2NDc5Mjc1MDQ5XkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .tp-img {
+    background: url('https://www.assignmentx.com/wp-content/uploads/2022/07/THE-PRINCESS-movie-poster.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .hp-img {
+    background: url('https://www.bluedogposters.com.au/cdn/shop/products/PP34925_1400x.jpg?v=1674016516') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .cn-img {
+    background: url('https://asianwiki.com/images/f/f2/Decibel_Korean_Movie-p1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .ism-img {
+    background: url('https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2023/07/Snapinsta.app_355431527_648558270467187_5594636517855612856_n_1080.jpg?size=*:900') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
+ .jc-img {
+    background: url('https://lumiere-a.akamaihd.net/v1/images/p_junglecruise_21740_v2_bb7f0ae4.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ } 
