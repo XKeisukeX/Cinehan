@@ -3,7 +3,7 @@ import Facebook from '../Images/Facebook.png';
 export default function Series() {
     return <section id="series" class="mb-5">
         <div className="container space-y-10">
-        <div class="md:-m-7 md:pt-10">
+        <div class="md:-m-7 md:pt-10 mt-11 md:mt-11 lg:mt-0">
             <h2 class="font-bold text-2xl text-white">Watch Series Online</h2>
             <p class="text-white py-2 font-thin text-sm leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vitae laborum ea veritatis excepturi nobis alias eum sed sequi nam nostrum veniam fugiat repellat labore accusamus odit soluta quasi asperiores explicabo, maxime fuga ad? In, minima quidem hic saepe, omnis quo provident suscipit voluptatibus, a molestias alias excepturi delectus beatae?</p>
         </div>

@@ -2,7 +2,7 @@ export default function Movies() {
     return <section id="movies" class="mb-5">
         <div className="container space-y-10">
         <div class="md:-m-7 md:pt-10">
-            <h2 class="font-bold text-2xl text-white">Movies</h2>
+            <h2 class="font-bold text-2xl text-white lg:mt-0 mt-10">Movies</h2>
         </div>
 
         <div class="grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 gap-6 mt-10">

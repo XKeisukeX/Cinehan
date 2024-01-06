@@ -3,7 +3,7 @@ export default function Trending() {
     <div class="container text-white">
         <div class="lg:py-3 py-10">
             <div class="md:-m-7 md:pt-10 flex justify-between items-center">
-                <h2 class="font-bold text-2xl md:py-6">Trending Movies</h2>
+                <h2 class="font-bold text-2xl">Trending Movies</h2>
                 <i class="fa fa-chevron-right text-gray-300 hover:text-gray-400 ease-in duration-200 cursor-pointer"></i>
             </div>
     

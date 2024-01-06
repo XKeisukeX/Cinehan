@@ -2,7 +2,7 @@ export default function Home() {
     return <section id="home" class="mb-5">
     <div class="container space-y-10">
         <div class="md:-m-7 md:pt-10">
-            <h2 class="font-bold text-2xl text-white">Recommended</h2>
+            <h2 class="font-bold text-2xl text-white lg:mt-0 mt-10">Recommended</h2>
         </div>
         
         <div class="border-2 border-solid border-gray-500 rounded-xl">
